@@ -9,9 +9,12 @@ Random Scripts and config files
 - Run from the transmission config directory, `~/Library/Application\ Support/Transmission/` (Mac) or `/.config/transmission/` (Linux)
 - Can be scheduled to run daily with crontab 
 ```sh 
-echo "0 0 * * * sh ~/Library/Application\ Support/Transmission/genBlockLists.sh" | crontab
+echo "0 0 * * * sh /path/to/transmission/genBlockLists.sh" | crontab
 ```
 
 ### Powercord Update:
 - Run from the powercord installation directory
 - Updates powercord, all plugins and all themes
+
+### User Overrides:
+- For use with [arkenfox user.js](https://github.com/arkenfox/user.js)
