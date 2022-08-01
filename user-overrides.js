@@ -10,10 +10,10 @@ user_pref("privacy.clearOnShutdown.cookies", false); // 2803 optional
 user_pref("privacy.clearOnShutdown.formdata", false); // 2803 optional
 user_pref("privacy.cpd.history", false); // 2804 to match when you use Ctrl-Shift-Del
 user_pref("privacy.cpd.cookies", false); // 2804 optional
-user_pref("privacy.cpd.formdata", false); // 2804 optional
+user_pref("privacy.cpd.formdata", false); // 2804 optionals
 
 //0103
-user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.startup.homepage", "http://192.168.178.200:5005/");
 
 //0104
 user_pref("browser.newtabpage.enabled", true);
@@ -84,12 +84,12 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("browser.compactmode.show", true);
 
 // hide vpn banner
-user_pref("browser.contentblocking.report.hide_vpn_banner",	true);
+user_pref("browser.contentblocking.report.hide_vpn_banner", true);
 
 user_pref("browser.download.panel.shown", true);
 
 // Proton toolbar version
-user_pref("browser.proton.toolbar.version",	3);
+user_pref("browser.proton.toolbar.version", 3);
 
 // Titlebar off
 user_pref("browser.tabs.inTitlebar", 1);
@@ -104,7 +104,7 @@ user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("findbar.highlightAll", true);
 
 // Set pip button position
-user_pref("media.videocontrols.picture-in-picture.video-toggle.position", "top");
+// user_pref("media.videocontrols.picture-in-picture.video-toggle.position", "top");
 
 // Green color secure site padlock icon
 user_pref("security.secure_connection_icon_color_gray", false);  
