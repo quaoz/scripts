@@ -11,3 +11,7 @@ Random Scripts and config files
 ### [File Counter](https://github.com/quaoz/scripts/blob/main/file-counter.js):
 - Displays the number of files in each directory on [myrient.erista.me](https://myrient.erista.me/files/*)
 - Probably works on other sites using nginx fancyindex
+
+### [Questionbank](https://github.com/quaoz/scripts/blob/main/questionbank.css):
+- Darkmode for IB Questionbank
+- 
