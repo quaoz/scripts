@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        un-blur
+// @name        unblur
 // @namespace   quaoz
-// @match       https://*.google.com/*
+// @match       https://docs.google.com/*
 // @grant       none
 // @version     1.0
 // @author      quaoz
