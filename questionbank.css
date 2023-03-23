@@ -1,0 +1,70 @@
+:root {
+    --base: rgb(26, 27, 30);
+    --text: rgb(170, 172, 175);
+    --link: rgb(28, 167, 250);
+}
+
+/* standard */
+.section, .service, .service > .heading, nav.navbar-fixed-top, footer, .mobile-nav, .syllabus_sections-index, .syllabus_sections-show, .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .page-content, .well, body, select, .btn, button {
+    background-color: var(--base);
+    color: var(--text);
+}
+
+/* inverted images */
+img.logo, .navbar-brand > img, .service > .description > img, .qb_logo, .syllabus_sections-show > .page-content > .module img, .questions-show > .page-content img {
+    -webkit-filter: invert(100%);
+}
+
+/* hidden borders */
+.cut {
+    border-right-color: var(--base);
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .questions-show > .page-content > .page-header {
+    border-bottom: var(--base);
+}
+
+/* coloured borders */
+.page-header, .table > tbody > tr > td, .table > tbody > tr > th, .nav-tabs, .nav-tabs > .active > a, .nav-tabs > .active > a:hover, hr, .well, .btn, button {
+    border-color: var(--text);
+}
+
+/* links */
+a, .service:hover > .heading, .span16 > h1, .page-content > h2, h3, a:hover, .nav-tabs > .active > a:hover {
+    color: var(--link);
+}
+
+/* background */
+.syllabus_sections-index, .syllabus_sections-show, .questions-show, .btn {
+    background: var(--base);
+    text-shadow: none;
+}
+
+/* button hover colours */
+.btn:hover, button:hover {
+    background: var(--text);
+    color: var(--base);
+}
+
+/* fix blue buttons */
+.btn-blue {
+    border-color: rgb(0, 168, 255);
+}
+
+.btn-blue:hover {
+    border-color: rgb(60, 184, 260);
+}
+
+/* simplify questions */
+.module > ul > li > a > p:nth-last-child(-n + 10), .module > ul > li > a > p > img {
+    display: none;
+}
+
+.module > ul > li > a > p:first-child {
+    display: inline;
+}
+
+/* fix highlight colour */
+.module > ul > li > a > p > span, .module > ul > li > a > p > span > span {
+    background-color: var(--base) !important;
+}
