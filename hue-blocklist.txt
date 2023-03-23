@@ -1,0 +1,5 @@
+# Pi-hole blocklist for some hue domains
+
+data.meethue.com
+diag.meethue.com
+diagnostics.meethue.com
