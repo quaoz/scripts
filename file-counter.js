@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        File counter
+// @namespace   quaoz
 // @match       https://myrient.erista.me/files/*
 // @grant       none
 // @version     1.0
