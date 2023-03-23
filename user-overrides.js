@@ -7,7 +7,7 @@ user_pref("privacy.clearOnShutdown.history", false); // 2803
 user_pref("privacy.cpd.history", false); // 2820 optional to match when you use Ctrl-Shift-Del
 
 //0103
-user_pref("browser.startup.homepage", "http://192.168.178.200:5005/");
+user_pref("browser.startup.homepage", "http://192.168.178.87:7575");
 
 //0104
 user_pref("browser.newtabpage.enabled", true);
@@ -69,5 +69,7 @@ user_pref("browser.urlbar.suggest.calculator", true);
 
 // Findbar enable highlightall option
 user_pref("findbar.highlightAll", true);
+
+user_pref("ui.systemUsesDarkTheme", 1)
 
 user_pref("_user.js.parrot", "overrides section successful");
