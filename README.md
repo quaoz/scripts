@@ -14,4 +14,3 @@ Random Scripts and config files
 
 ### [Questionbank](https://github.com/quaoz/scripts/blob/main/questionbank.css):
 - Darkmode for IB Questionbank
-- 
